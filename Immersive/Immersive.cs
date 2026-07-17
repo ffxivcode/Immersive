@@ -94,7 +94,7 @@ public class Immersive : IDalamudPlugin
 
     private void OnCommand(string command, string args)
     {
-        //In response to the slash command, just toggle _immersion
+        //In response to the slash command, just toggle Immersion
         Immersion = !Immersion;
     }
 }
